@@ -10,7 +10,7 @@ import NavPills from './NavPills.vue'
         <p>A collection of small vanilla HTML, CSS & JS projects adapted to Vue JS</p>
         <p>
           All code can be found on Github at
-          <a href="https://github.com/jonathantaft/50-projects" target="_blank">
+          <a href="https://github.com/JLTDigital/50-Projects" target="_blank">
             <i class="fa-brands fa-github" style="color: #000"></i>
           </a>
         </p>
