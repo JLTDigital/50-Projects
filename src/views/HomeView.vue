@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import NavPills from '../components/NavPills.vue'
+import Home from '../components/Home.vue'
 </script>
 
 <template>
   <div>
-    <NavPills />
+    <Home />
   </div>
 </template>
