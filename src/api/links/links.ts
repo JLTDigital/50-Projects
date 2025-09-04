@@ -2,15 +2,15 @@
 const links = [
   {
     id: 1,
-    title: 'Project 1',
+    title: 'Expanding Cards',
     backgroundColour: '#fff',
-    path: '/home',
+    path: '/expanding-cards',
   },
   {
     id: 2,
-    title: 'Project 2',
+    title: 'Progress Steps',
     backgroundColour: '#fff',
-    path: '/about',
+    path: '/progress-steps',
   },
 ]
 

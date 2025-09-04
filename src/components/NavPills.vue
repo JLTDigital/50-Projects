@@ -31,7 +31,8 @@ ul {
 }
 
 .navPill {
-  padding: 1rem 2rem;
+  color: #000;
+  padding: 1rem 1.5rem;
   font-size: 1rem;
   border-radius: 20px;
   text-decoration: none;

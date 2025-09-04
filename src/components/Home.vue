@@ -48,25 +48,13 @@ header {
     0px 0px,
     0px 0px,
     0px 0px,
-    0px 0px,
-    0px 0px,
-    0px 0px,
-    0px 0px,
-    0px 0px,
-    0px 0px,
     0px 0px;
   background-image:
-    radial-gradient(18% 28% at 24% 50%, #cefaffff 7%, #073aff00 100%),
-    radial-gradient(18% 28% at 18% 71%, #ffffff59 6%, #073aff00 100%),
-    radial-gradient(70% 53% at 36% 76%, #73f2ffff 0%, #073aff00 100%),
-    radial-gradient(42% 53% at 15% 94%, #ffffffff 7%, #073aff00 100%),
-    radial-gradient(42% 53% at 34% 72%, #ffffffff 7%, #073aff00 100%),
-    radial-gradient(18% 28% at 35% 87%, #ffffffff 7%, #073aff00 100%),
-    radial-gradient(31% 43% at 7% 98%, #ffffffff 24%, #073aff00 100%),
-    radial-gradient(21% 37% at 72% 23%, #d3ff6d9c 24%, #073aff00 100%),
-    radial-gradient(35% 56% at 91% 74%, #8a4ffff5 9%, #073aff00 100%),
-    radial-gradient(74% 86% at 67% 38%, #6dffaef5 24%, #073aff00 100%),
-    linear-gradient(125deg, #4eb5ffff 1%, #4c00fcff 100%);
+    repeating-linear-gradient(315deg, #00ffff2e 92%, #073aff00 100%),
+    repeating-radial-gradient(75% 75% at 238% 218%, #00ffff12 30%, #073aff14 39%),
+    radial-gradient(99% 99% at 109% 2%, #00c9ffff 0%, #073aff00 100%),
+    radial-gradient(99% 99% at 21% 78%, #7b00ffff 0%, #073aff00 100%),
+    radial-gradient(160% 154% at 711px -303px, #2000ffff 0%, #073affff 100%);
 }
 
 @media (min-width: 1024px) {
