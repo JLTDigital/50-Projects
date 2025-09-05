@@ -30,12 +30,19 @@ header {
   font-size: 2.5rem;
 }
 
+header h1 {
+  font-family: 'Monofett', monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+}
+
 .header-content {
   text-align: center;
 }
 
 .header-content p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .wrapper {
