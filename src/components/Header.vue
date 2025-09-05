@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { defineProps } from 'vue'
+import { RouterLink } from 'vue-router'
 interface Props {
   title: string
 }
@@ -8,6 +10,9 @@ const props = defineProps<Props>()
 
 <template>
   <header>
+    <RouterLink to="/">
+      <button><i class="fas fa-arrow-left"></i></button
+    ></RouterLink>
     <h1>{{ props.title }}</h1>
   </header>
 </template>
@@ -19,6 +24,8 @@ header {
   font-weight: 400;
   font-size: 2.5rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 header p {
@@ -30,5 +37,27 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
   margin: 0;
+}
+
+button {
+  position: absolute;
+  top: 1.5rem;
+  left: 2.5rem;
+  background: #000;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column-reverse;
+  }
+
+  button {
+    position: initial;
+  }
 }
 </style>

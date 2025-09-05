@@ -32,9 +32,6 @@ header {
 }
 
 header h1 {
-  font-family: 'Silkscreen', sans-serif;
-  font-weight: 400;
-  font-style: normal;
   color: #000;
   line-height: 1;
   margin-bottom: 1.5rem;
