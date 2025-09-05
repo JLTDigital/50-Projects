@@ -25,16 +25,19 @@ import NavPills from './NavPills.vue'
 <style scoped>
 header {
   line-height: 1.5;
-  padding: 2rem 1rem 1rem;
+  padding: 2rem;
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  letter-spacing: 1.25px;
 }
 
 header h1 {
-  font-family: 'Monofett', monospace;
+  font-family: 'Silkscreen', sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #000;
+  line-height: 1;
+  margin-bottom: 1.5rem;
 }
 
 .header-content {
@@ -43,6 +46,7 @@ header h1 {
 
 .header-content p {
   font-size: 1.2rem;
+  color: #fff;
 }
 
 .wrapper {
@@ -69,6 +73,9 @@ header h1 {
     display: flex;
     flex-direction: column;
     place-items: center;
+    padding: 2rem 1rem 1rem;
+    letter-spacing: 2.25px;
+    font-size: 2.5rem;
   }
 
   header .wrapper {
