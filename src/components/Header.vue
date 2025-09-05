@@ -15,7 +15,7 @@ const props = defineProps<Props>()
 <style scoped>
 header {
   line-height: 1.5;
-  padding: 2rem 1rem 1rem;
+  padding: 1rem 1rem 1rem;
   font-weight: 400;
   font-size: 2.5rem;
   text-align: center;
