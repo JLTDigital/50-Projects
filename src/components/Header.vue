@@ -42,7 +42,7 @@ h1 {
 button {
   position: absolute;
   top: 1.5rem;
-  left: 2.5rem;
+  left: 20%;
   background: #000;
   border: none;
   color: #fff;

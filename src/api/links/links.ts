@@ -12,6 +12,12 @@ const links = [
     backgroundColour: '#fff',
     path: '/progress-steps',
   },
+  {
+    id: 3,
+    title: 'Rotating Navigation',
+    backgroundColour: '#fff',
+    path: '/rotating-navigation',
+  },
 ]
 
 export { links }

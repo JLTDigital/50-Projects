@@ -25,7 +25,7 @@ ul {
   justify-content: center;
   gap: 1rem;
   list-style: none;
-  padding: 0;
+  padding: 1rem;
   margin: 0;
   overflow-x: auto;
 }
@@ -40,6 +40,7 @@ ul {
     color 0.3s ease,
     background-color 0.3s ease;
   width: fit-content;
+  position: relative;
 }
 
 li {
